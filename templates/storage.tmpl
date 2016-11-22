@@ -1,0 +1,5 @@
+type=postgresql
+driver=org.postgresql.Driver
+url=jdbc:postgresql://postgresql:5432/{{getv "/self/service/metadata/artifactorydbname" }}
+username={{getv "/self/service/metadata/artifactorydbuser" }}
+password={{getv "/self/service/metadata/artifactorydbpassword" }}

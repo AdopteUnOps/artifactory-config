@@ -1,0 +1,13 @@
+<config version="v1">
+    <chain template="s3">
+    </chain>
+    <provider id="s3" type="s3">
+        <identity>{{getv "/self/service/metadata/artifactorys3identity" }}</identity>
+        <credential>{{getv "/self/service/metadata/artifactorys3credential" }}</credential>
+        <endpoint>{{getv "/self/service/metadata/artifactorys3endpoint" }}</endpoint>
+        <bucketName>{{getv "/self/service/metadata/artifactorys3bucketname" }}</bucketName>
+        <httpsOnly>false</httpsOnly>
+        <property name="s3service.disable-dns-buckets" value="true"></property>
+    </provider>
+</config>
+
