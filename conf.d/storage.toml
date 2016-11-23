@@ -1,7 +1,7 @@
 [template]
 src="storage.tmpl"
 dest="/var/opt/jfrog/artifactory/etc/storage.properties"
-keys= [
+keys= [
   "/self/service/metadata/artifactorydbname",
   "/self/service/metadata/artifactorydbuser",
   "/self/service/metadata/artifactorydbpassword"
