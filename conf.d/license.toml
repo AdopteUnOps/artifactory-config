@@ -1,6 +1,6 @@
 [template]
 src="license.tmpl"
 dest="/var/opt/jfrog/artifactory/etc/artifactory.lic"
-keys= [
-  "/self/service/metadata/artifactorylic"
+keys= [
+   "/self/service/metadata/artifactorylic"
 ]
