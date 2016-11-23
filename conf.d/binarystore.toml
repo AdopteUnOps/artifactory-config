@@ -1,9 +1,9 @@
 [template]
 src="binarystore.tmpl"
 dest="/var/opt/jfrog/artifactory/etc/binarystore.xml"
-keys= [
-  "/self/service/metadata/artifactorys3identity",
-  "/self/service/metadata/artifactorys3credential",
-  "/self/service/metadata/artifactorys3endpoint",
-  "/self/service/metadata/artifactorys3bucketname"
+keys= [
+    "/self/service/metadata/artifactorys3identity",
+    "/self/service/metadata/artifactorys3credential",
+    "/self/service/metadata/artifactorys3endpoint",
+    "/self/service/metadata/artifactorys3bucketname"
 ]
